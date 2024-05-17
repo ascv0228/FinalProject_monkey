@@ -1,0 +1,19 @@
+{
+    "server_host": "0.0.0.0",
+    "server_port": 5000,
+    "import_path": "func",
+    "device_position": {
+        "YOUR_MAC_ID": {
+            "x": 128,
+            "y": 461
+        },
+        "test": {
+            "x": 570,
+            "y": 248
+        }
+    },
+    "line_receive_token": [],
+    "nsysu_map_source": "./res/nsysu_map.jpg",
+    "nsysu_map_destination": "./res/destination/nsysu_map.jpg",
+    "warning_wait_minutes": 1
+}
