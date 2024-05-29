@@ -3,7 +3,7 @@
     "server_port": 5000,
     "import_path": "func",
     "device_position": {
-        "YOUR_MAC_ID": {
+        "f4:28:53:1b:a5:eb": {
             "x": 128,
             "y": 461
         },
@@ -12,7 +12,9 @@
             "y": 248
         }
     },
-    "line_receive_token": [],
+    "line_receive_token": [
+        "3KtNYflJ7kAo9xS7CdTZ5W9a4ich0Zc81qFOZn16CZZ"
+    ],
     "nsysu_map_source": "./res/nsysu_map.jpg",
     "nsysu_map_destination": "./res/destination/nsysu_map.jpg",
     "warning_wait_minutes": 1
