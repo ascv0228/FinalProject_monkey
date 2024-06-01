@@ -7,7 +7,7 @@ from PIL import Image
 from io import BytesIO
 
 def draw_annotation(img, label_names, results):
-    print("draw_annotation")
+    # print("draw_annotation")
     annotator = Annotator(img)
     for r in results:
         boxes = r.boxes
@@ -19,7 +19,7 @@ def draw_annotation(img, label_names, results):
     return annotated_img
 
 def sendLineNotify(image_array):
-    print("sendLineNotify")
+    # print("sendLineNotify")
     try:
         t = time.time()
         t1 = time.localtime(t)
